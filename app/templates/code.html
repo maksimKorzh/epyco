@@ -53,24 +53,8 @@
             .CodeMirror pre.CodeMirror-placeholder, textarea { color: #999; }
           </style>
 
-          <textarea id="code" placeholder="
-            One time scraper
-  ___________________________________
-
-Free and open-source python environment intended for web scraping purposes,
-see credential details at the bottom of this page.
-
-
-        Security vulnerabilities
-  ___________________________________
-
-1. ANYBODY can hack this server because you're free to execute python code)
-2. ANYBODY can down the server and the entire linux virtual machine behind it
-3. ANYBODY can damage my pythonanywehere account so it would probably be closed after
-
-BUT even still I decided to pay $5/month to provide you a free online web scraping opportunity
-"></textarea>
-          <textarea id="console" class="form-control mt-2" rows="9" placeholder="Press Ctrl+Shift+Enter to execute the above code..."></textarea>
+          <textarea id="code" placeholder="Type python code here..."></textarea>
+          <textarea id="console" class="form-control mt-2" rows="9" placeholder="Press Ctrl+Shift+Enter to execute the above code ..."></textarea>
           
           <script type="text/javascript">
             var editor = CodeMirror.fromTextArea(document.getElementById('code'), {//CodeMirror(document.getElementById('editor'), {
