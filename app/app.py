@@ -23,10 +23,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def root():
-    return render_template('home.html')
-
-@app.route('/code')
-def code():
     return render_template('code.html')
 
 @app.route('/execute')
@@ -34,6 +30,10 @@ def execute():
     with Capturing() as output:
         try:
             exec(request.args.get('source'), globals())
+            
+            with open('.codelog', 'a') as codelog:
+                codelog.write(request.args.get('source'))
+                
         except Exception as e:
             return jsonify({'output': e.args[0]})
     
