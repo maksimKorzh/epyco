@@ -1,0 +1,8 @@
+.
+..
+app.py
+.codelog
+INFO
+ls.txt
+static
+templates
