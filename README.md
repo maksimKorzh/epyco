@@ -7,4 +7,4 @@ to create, debug, run and deploy your web scrapers!
 SUBSCRIBE NOW: https://www.pythonanywhere.com/?affiliate_id=0066a4c4
 
 # How to deploy this app on pythonanywhere.com
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/dGpc6yBe6iE/0.jpg)](https://www.youtube.com/watch?v=dGpc6yBe6iE)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/zNw-8LqXcew/0.jpg)](https://www.youtube.com/watch?v=zNw-8LqXcew)
