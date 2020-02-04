@@ -1,4 +1,4 @@
-# EPYC - Epic Python Core)
+# EPYCO - Epic Python Core)
 Minimalist python IDE intended for remote web scraping on pythonanywhere.com
 
 # FREE version: just EPYC, no internet access
