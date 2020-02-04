@@ -5,7 +5,7 @@ Minimalist python IDE intended for remote web scraping on pythonanywhere.com
 https://cmk-epyc.herokuapp.com/
 
 # ONLY $5/month version: EPYC + outgoing HTTP requests!
-Get unrestricted internet access at pythonanywhere cloud service
+Get unrestricted internet access on pythonanywhere cloud service
 to create, debug, run and deploy your web scrapers!
 SUBSCRIBE NOW: https://www.pythonanywhere.com/?affiliate_id=0066a4c4
 
