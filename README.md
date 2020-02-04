@@ -1,7 +1,10 @@
-# One time scraper
+# EPYC - Epic Python Core)
 Minimalist python IDE intended for remote web scraping on pythonanywhere.com
 
-# Subscribe to pythonanywhere
+# FREE version: just EPYC, no internet access
+https://cmk-epyc.herokuapp.com/
+
+# ONLY $5/month version: EPYC + outgoing HTTP requests!
 Get unrestricted internet access at pythonanywhere cloud service
 to create, debug, run and deploy your web scrapers!
 SUBSCRIBE NOW: https://www.pythonanywhere.com/?affiliate_id=0066a4c4
