@@ -4,7 +4,7 @@
 #
 #####################################
 
-One time scraper is a free open-source python environment intended for
+EPYCO is a free open-source python environment intended for
 web scraping purposes. The goal of this project is to provide absolutely
 free environment with no restrictions regarding internet access (so you
 likely can make whatever outgoing HTTP requests) to make it possible providing
