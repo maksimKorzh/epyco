@@ -25,14 +25,14 @@ app = Flask(__name__)
 def root():
     return render_template('code.html')
 
-@app.route('/execute')
+@app.route('/execute', methods=['POST'])
 def execute():
     with Capturing() as output:
         try:
-            exec(request.args.get('source'), globals())
+            exec(request.form.get('source'), globals())
             
             with open('.codelog', 'a') as codelog:
-                codelog.write(request.args.get('source'))
+                codelog.write(request.form.get('source'))
                 
         except Exception as e:
             return jsonify({'output': e.args[0]})

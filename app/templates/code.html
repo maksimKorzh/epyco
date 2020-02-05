@@ -68,7 +68,8 @@
 
             function execute() {
               $('#console').text('Executing...')
-              $.getJSON('/execute', {source: editor.getValue()}, (data) => {
+
+              $.post('/execute', {source: editor.getValue()}, (data) => {
                 $('#console').text(data.output)
               });
             }
