@@ -55,7 +55,8 @@
 
           <textarea id="code" placeholder="Type python code here..."></textarea>
           <textarea id="console" class="form-control mt-2" rows="9" placeholder="Press Ctrl+Shift+Enter to execute the above code ..."></textarea>
-          
+          <div class="text-center"><button class="btn btn-outline-secondary col-2 mt-2" onclick="execute()">Run!</button></div>
+          <hr class="my-3">
           <script type="text/javascript">
             var editor = CodeMirror.fromTextArea(document.getElementById('code'), {//CodeMirror(document.getElementById('editor'), {
               mode:  "python",
