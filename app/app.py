@@ -2,7 +2,8 @@ from flask import Flask
 from flask import render_template
 from flask import request
 from flask import jsonify
-from io import StringIO 
+from io import StringIO
+from subprocess import Popen, PIPE
 import sys
 
 
@@ -27,15 +28,15 @@ def root():
 
 @app.route('/execute', methods=['POST'])
 def execute():
+    # write code to file
+    with open('run.py', 'w') as code:
+        code.write(request.form.get('source'))
+    
     with Capturing() as output:
-        try:
-            exec(request.form.get('source'), globals())
-            
-            with open('.codelog', 'a') as codelog:
-                codelog.write(request.form.get('source'))
-                
-        except Exception as e:
-            return jsonify({'output': e.args[0]})
+        execute = Popen('python3 run.py', shell=True, stdout=PIPE, stderr=PIPE)
+        out = execute.stdout.read().decode('utf-8')
+        err = execute.stderr.read().decode('utf-8')
+        print(out, err)
     
     return jsonify({'output': '\n'.join(output)})
 
