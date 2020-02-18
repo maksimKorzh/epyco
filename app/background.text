@@ -1,0 +1,1365 @@
+DEBUG:root:
+
+started log at February 18, 2020 00:00:00
+
+
+INFO:scrapy.utils.log:Scrapy 1.7.3 started (bot: scrapybot)
+INFO:scrapy.utils.log:Versions: lxml 4.4.0.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.1, Python 3.6.8 (default, Oct  7 2019, 12:59:55) - [GCC 8.3.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1c  28 May 2019), cryptography 2.7, Platform Linux-4.15.0-20-generic-x86_64-with-LinuxMint-19.1-tessa
+INFO:scrapy.crawler:Overridden settings: {}
+INFO:scrapy.extensions.telnet:Telnet Password: a30236aff4445a29
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://free-proxy-list.net> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): Connection was refused by other side: 111: Connection refused.
+INFO:scrapy.extensions.logstats:Crawled 1 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.utils.log:Scrapy 1.7.3 started (bot: scrapybot)
+INFO:scrapy.utils.log:Versions: lxml 4.4.0.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.1, Python 3.6.8 (default, Oct  7 2019, 12:59:55) - [GCC 8.3.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1c  28 May 2019), cryptography 2.7, Platform Linux-4.15.0-20-generic-x86_64-with-LinuxMint-19.1-tessa
+INFO:scrapy.crawler:Overridden settings: {}
+INFO:scrapy.extensions.telnet:Telnet Password: f081c41b8279415d
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6024
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://free-proxy-list.net> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.extensions.logstats:Crawled 2 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 2 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.extensions.logstats:Crawled 3 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:root:q
+INFO:scrapy.utils.log:Scrapy 1.7.3 started (bot: scrapybot)
+INFO:scrapy.utils.log:Versions: lxml 4.4.0.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.1, Python 3.6.8 (default, Oct  7 2019, 12:59:55) - [GCC 8.3.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1c  28 May 2019), cryptography 2.7, Platform Linux-4.15.0-20-generic-x86_64-with-LinuxMint-19.1-tessa
+INFO:scrapy.crawler:Overridden settings: {}
+INFO:scrapy.extensions.telnet:Telnet Password: 0745b0bbe8b4cf32
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6027
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://free-proxy-list.net> (referer: None)
+INFO:scrapy.extensions.logstats:Crawled 2 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (403) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.spidermiddlewares.httperror:Ignoring response <403 https://scrapingkungfu.herokuapp.com/api/request>: HTTP status code is not handled or not allowed
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:root:q
+INFO:scrapy.utils.log:Scrapy 1.7.3 started (bot: scrapybot)
+INFO:scrapy.utils.log:Versions: lxml 4.4.0.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.1, Python 3.6.8 (default, Oct  7 2019, 12:59:55) - [GCC 8.3.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1c  28 May 2019), cryptography 2.7, Platform Linux-4.15.0-20-generic-x86_64-with-LinuxMint-19.1-tessa
+INFO:scrapy.crawler:Overridden settings: {}
+INFO:scrapy.extensions.telnet:Telnet Password: 43ee44191ae837e8
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6028
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://free-proxy-list.net> (referer: None)
+INFO:scrapy.extensions.logstats:Crawled 4 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+INFO:scrapy.extensions.logstats:Crawled 8 pages (at 8 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+INFO:scrapy.extensions.logstats:Crawled 4 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (403) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.spidermiddlewares.httperror:Ignoring response <403 https://scrapingkungfu.herokuapp.com/api/request>: HTTP status code is not handled or not allowed
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', 'ssl3_get_record', 'wrong version number')]>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (403) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.spidermiddlewares.httperror:Ignoring response <403 https://scrapingkungfu.herokuapp.com/api/request>: HTTP status code is not handled or not allowed
+DEBUG:scrapy.core.engine:Crawled (403) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.spidermiddlewares.httperror:Ignoring response <403 https://scrapingkungfu.herokuapp.com/api/request>: HTTP status code is not handled or not allowed
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (403) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.spidermiddlewares.httperror:Ignoring response <403 https://scrapingkungfu.herokuapp.com/api/request>: HTTP status code is not handled or not allowed
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.extensions.logstats:Crawled 8 pages (at 8 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 11 pages (at 7 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 8 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 6 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (403) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.spidermiddlewares.httperror:Ignoring response <403 https://scrapingkungfu.herokuapp.com/api/request>: HTTP status code is not handled or not allowed
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (403) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.spidermiddlewares.httperror:Ignoring response <403 https://scrapingkungfu.herokuapp.com/api/request>: HTTP status code is not handled or not allowed
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (403) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.spidermiddlewares.httperror:Ignoring response <403 https://scrapingkungfu.herokuapp.com/api/request>: HTTP status code is not handled or not allowed
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', 'ssl3_get_record', 'wrong version number')]>]
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.extensions.logstats:Crawled 8 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 14 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 8 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.extensions.logstats:Crawled 12 pages (at 6 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.extensions.logstats:Crawled 11 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.extensions.logstats:Crawled 14 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.extensions.logstats:Crawled 10 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.extensions.logstats:Crawled 13 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 11 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 14 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.extensions.logstats:Crawled 12 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 13 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): Connection was refused by other side: 111: Connection refused.
+INFO:scrapy.extensions.logstats:Crawled 14 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 14 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.extensions.logstats:Crawled 16 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 13 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 15 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 15 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 16 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 14 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): Could not open CONNECT tunnel with proxy 62.173.145.211:8118 [{'status': 503, 'reason': b'Too many open connections'}]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (403) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.spidermiddlewares.httperror:Ignoring response <403 https://scrapingkungfu.herokuapp.com/api/request>: HTTP status code is not handled or not allowed
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', 'ssl3_get_record', 'wrong version number')]>]
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 16 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 16 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.extensions.logstats:Crawled 19 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (403) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.spidermiddlewares.httperror:Ignoring response <403 https://scrapingkungfu.herokuapp.com/api/request>: HTTP status code is not handled or not allowed
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 15 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): Connection was refused by other side: 111: Connection refused.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (403) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.spidermiddlewares.httperror:Ignoring response <403 https://scrapingkungfu.herokuapp.com/api/request>: HTTP status code is not handled or not allowed
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+INFO:scrapy.extensions.logstats:Crawled 20 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 20 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 22 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 16 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (403) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.spidermiddlewares.httperror:Ignoring response <403 https://scrapingkungfu.herokuapp.com/api/request>: HTTP status code is not handled or not allowed
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 21 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 20 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 22 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 17 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): Connection was refused by other side: 111: Connection refused.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.extensions.logstats:Crawled 21 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 22 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.extensions.logstats:Crawled 22 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.extensions.logstats:Crawled 19 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 22 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 22 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 25 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 19 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 22 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 22 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 25 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 21 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/exception_count': 54,
+ 'downloader/exception_type_count/twisted.internet.error.ConnectionRefusedError': 3,
+ 'downloader/exception_type_count/twisted.internet.error.TCPTimedOutError': 34,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 13,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseFailed': 2,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 2,
+ 'downloader/request_bytes': 42668,
+ 'downloader/request_count': 76,
+ 'downloader/request_method_count/GET': 76,
+ 'downloader/response_bytes': 36584,
+ 'downloader/response_count': 22,
+ 'downloader/response_status_count/200': 19,
+ 'downloader/response_status_count/403': 3,
+ 'elapsed_time_seconds': 1013.754512,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 2, 18, 12, 16, 8, 241807),
+ 'httperror/response_ignored_count': 3,
+ 'httperror/response_ignored_status_count/403': 3,
+ 'log_count/DEBUG': 76,
+ 'log_count/ERROR': 13,
+ 'log_count/INFO': 29,
+ 'memusage/max': 56721408,
+ 'memusage/startup': 48599040,
+ 'request_depth_max': 1,
+ 'response_received_count': 22,
+ 'retry/count': 41,
+ 'retry/max_reached': 13,
+ 'retry/reason_count/twisted.internet.error.ConnectionRefusedError': 2,
+ 'retry/reason_count/twisted.internet.error.TCPTimedOutError': 26,
+ 'retry/reason_count/twisted.internet.error.TimeoutError': 9,
+ 'retry/reason_count/twisted.web._newclient.ResponseFailed': 2,
+ 'retry/reason_count/twisted.web._newclient.ResponseNeverReceived': 2,
+ 'scheduler/dequeued': 76,
+ 'scheduler/dequeued/memory': 76,
+ 'scheduler/enqueued': 76,
+ 'scheduler/enqueued/memory': 76,
+ 'start_time': datetime.datetime(2020, 2, 18, 11, 59, 14, 487295)}
+INFO:scrapy.core.engine:Spider closed (finished)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.extensions.logstats:Crawled 22 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 25 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 21 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 23 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 27 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 21 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/exception_count': 55,
+ 'downloader/exception_type_count/twisted.internet.error.ConnectionRefusedError': 3,
+ 'downloader/exception_type_count/twisted.internet.error.TCPTimedOutError': 38,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 12,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseFailed': 1,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 1,
+ 'downloader/request_bytes': 42668,
+ 'downloader/request_count': 76,
+ 'downloader/request_method_count/GET': 76,
+ 'downloader/response_bytes': 35490,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 18,
+ 'downloader/response_status_count/403': 3,
+ 'elapsed_time_seconds': 1037.983543,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 2, 18, 12, 17, 45, 666224),
+ 'httperror/response_ignored_count': 3,
+ 'httperror/response_ignored_status_count/403': 3,
+ 'log_count/DEBUG': 76,
+ 'log_count/ERROR': 14,
+ 'log_count/INFO': 30,
+ 'memusage/max': 56721408,
+ 'memusage/startup': 49041408,
+ 'request_depth_max': 1,
+ 'response_received_count': 21,
+ 'retry/count': 41,
+ 'retry/max_reached': 14,
+ 'retry/reason_count/twisted.internet.error.ConnectionRefusedError': 2,
+ 'retry/reason_count/twisted.internet.error.TCPTimedOutError': 29,
+ 'retry/reason_count/twisted.internet.error.TimeoutError': 9,
+ 'retry/reason_count/twisted.web._newclient.ResponseNeverReceived': 1,
+ 'scheduler/dequeued': 76,
+ 'scheduler/dequeued/memory': 76,
+ 'scheduler/enqueued': 76,
+ 'scheduler/enqueued/memory': 76,
+ 'start_time': datetime.datetime(2020, 2, 18, 12, 0, 27, 682681)}
+INFO:scrapy.core.engine:Spider closed (finished)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 23 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+INFO:scrapy.extensions.logstats:Crawled 28 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+INFO:scrapy.extensions.logstats:Crawled 25 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 28 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): Connection was refused by other side: 111: Connection refused.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): Connection was refused by other side: 111: Connection refused.
+INFO:scrapy.extensions.logstats:Crawled 25 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 28 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 25 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 28 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.extensions.logstats:Crawled 26 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+INFO:scrapy.extensions.logstats:Crawled 30 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): Connection was refused by other side: 111: Connection refused.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 2 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 26 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 30 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.extensions.logstats:Crawled 26 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 31 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): Connection was refused by other side: 111: Connection refused.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 26 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.logstats:Crawled 32 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.extensions.logstats:Crawled 26 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): Connection was refused by other side: 111: Connection refused.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 33 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 26 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): Connection was refused by other side: 111: Connection refused.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 34 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.core.engine:Closing spider (finished)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/exception_count': 90,
+ 'downloader/exception_type_count/twisted.internet.error.ConnectionRefusedError': 11,
+ 'downloader/exception_type_count/twisted.internet.error.TCPTimedOutError': 54,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 19,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseFailed': 6,
+ 'downloader/request_bytes': 69836,
+ 'downloader/request_count': 124,
+ 'downloader/request_method_count/GET': 124,
+ 'downloader/response_bytes': 49725,
+ 'downloader/response_count': 34,
+ 'downloader/response_status_count/200': 31,
+ 'downloader/response_status_count/403': 3,
+ 'elapsed_time_seconds': 1523.831193,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 2, 18, 12, 27, 49, 617844),
+ 'httperror/response_ignored_count': 3,
+ 'httperror/response_ignored_status_count/403': 3,
+ 'log_count/DEBUG': 124,
+ 'log_count/ERROR': 24,
+ 'log_count/INFO': 38,
+ 'memusage/max': 57298944,
+ 'memusage/startup': 49143808,
+ 'request_depth_max': 1,
+ 'response_received_count': 34,
+ 'retry/count': 66,
+ 'retry/max_reached': 24,
+ 'retry/reason_count/twisted.internet.error.ConnectionRefusedError': 8,
+ 'retry/reason_count/twisted.internet.error.TCPTimedOutError': 42,
+ 'retry/reason_count/twisted.internet.error.TimeoutError': 12,
+ 'retry/reason_count/twisted.web._newclient.ResponseFailed': 4,
+ 'scheduler/dequeued': 124,
+ 'scheduler/dequeued/memory': 124,
+ 'scheduler/enqueued': 124,
+ 'scheduler/enqueued/memory': 124,
+ 'start_time': datetime.datetime(2020, 2, 18, 12, 2, 25, 786651)}
+INFO:scrapy.core.engine:Spider closed (finished)
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.extensions.logstats:Crawled 28 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): Connection was refused by other side: 111: Connection refused.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.ConnectionRefusedError: Connection was refused by other side: 111: Connection refused.
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
+DEBUG:views:logging...
+INFO:scrapy.extensions.logstats:Crawled 30 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 352, in _cb_timeout
+    raise TimeoutError("Getting %s took longer than %s seconds." % (url, timeout))
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://scrapingkungfu.herokuapp.com/api/request took longer than 180.0 seconds..
+INFO:scrapy.extensions.logstats:Crawled 30 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+ERROR:scrapy.core.scraper:Error downloading <GET https://scrapingkungfu.herokuapp.com/api/request>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/exception_count': 97,
+ 'downloader/exception_type_count/scrapy.core.downloader.handlers.http11.TunnelError': 1,
+ 'downloader/exception_type_count/twisted.internet.error.ConnectionRefusedError': 11,
+ 'downloader/exception_type_count/twisted.internet.error.TCPTimedOutError': 61,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 22,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseFailed': 2,
+ 'downloader/request_bytes': 71534,
+ 'downloader/request_count': 127,
+ 'downloader/request_method_count/GET': 127,
+ 'downloader/response_bytes': 45482,
+ 'downloader/response_count': 30,
+ 'downloader/response_status_count/200': 27,
+ 'downloader/response_status_count/403': 3,
+ 'elapsed_time_seconds': 1636.312745,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 2, 18, 12, 30, 29, 784009),
+ 'httperror/response_ignored_count': 3,
+ 'httperror/response_ignored_status_count/403': 3,
+ 'log_count/DEBUG': 153,
+ 'log_count/ERROR': 28,
+ 'log_count/INFO': 40,
+ 'memusage/max': 57262080,
+ 'memusage/startup': 49037312,
+ 'request_depth_max': 1,
+ 'response_received_count': 30,
+ 'retry/count': 69,
+ 'retry/max_reached': 28,
+ 'retry/reason_count/scrapy.core.downloader.handlers.http11.TunnelError': 1,
+ 'retry/reason_count/twisted.internet.error.ConnectionRefusedError': 8,
+ 'retry/reason_count/twisted.internet.error.TCPTimedOutError': 42,
+ 'retry/reason_count/twisted.internet.error.TimeoutError': 17,
+ 'retry/reason_count/twisted.web._newclient.ResponseFailed': 1,
+ 'scheduler/dequeued': 127,
+ 'scheduler/dequeued/memory': 127,
+ 'scheduler/enqueued': 127,
+ 'scheduler/enqueued/memory': 127,
+ 'start_time': datetime.datetime(2020, 2, 18, 12, 3, 13, 471264)}
+INFO:scrapy.core.engine:Spider closed (finished)

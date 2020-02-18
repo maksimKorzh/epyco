@@ -1,9 +1,11 @@
+from subprocess import Popen, PIPE
 from flask import Flask
 from flask import render_template
 from flask import request
 from flask import jsonify
+from flask import g
 from io import StringIO
-from subprocess import Popen, PIPE
+import threading
 import sys
 
 
@@ -14,6 +16,9 @@ import sys
 ###################################################################
 
 app = Flask(__name__)
+
+proc = None
+process = None
 
 
 ###################################################################
@@ -40,6 +45,67 @@ def execute():
     
     return jsonify({'output': '\n'.join(output)})
 
+@app.route('/background', methods=['POST'])
+def backgroud():
+    global process
+    
+    # write code to file
+    with open('background.py', 'w') as code:
+        code.write(request.form.get('source'))
+    
+    # clear background output
+    with open('background.txt', 'w') as out:
+        out.write('')
+    
+    # clear background log
+    with open('background.log', 'w') as out:
+        out.write('')
+        
+    def run():
+        global proc
+
+        proc = Popen('exec python3 background.py', shell=True, stdout=PIPE, stderr=PIPE)
+        out = proc.stdout.read().decode('utf-8')
+        err = proc.stderr.read().decode('utf-8')
+        
+        with open('background.txt', 'a') as output:
+            output.write(out + err)
+    
+    process = threading.Timer(0, run)
+    process.start()
+    
+    return '''Executing code in background thread...
+
+# paste this code before spider class definition to enable logging
+import logging
+logging.basicConfig(filename='background.log',level=logging.DEBUG)
+
+# usage
+def parse(self, response):
+    self.log(response.text) # will log response.text to background.log
+
+# track your code's output in new EPYCO tab:
+from hack import *
+cat('background.log')
+'''  
+
+@app.route('/kill', methods=['POST'])
+def kill():
+    if proc.poll() is None:
+        proc.kill()
+        
+        # clear user file output
+        with open('background.txt', 'w') as output:
+            output.write('process was killed!\n')
+        
+        # clear user log file
+        with open('background.log', 'w') as output:
+            output.write('process was killed!\n')
+
+        return 'background process %s was successfully killed!' % str(proc)
+    else:
+        return 'no process running!'
+    
 
 ###################################################################
 #

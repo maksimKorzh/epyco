@@ -27,12 +27,12 @@
       <script src="{{url_for('static', filename='codemirror/addon/display/placeholder.js')}}"></script>
 
       <!-- Analytics -->
-      <script type="text/javascript">
+      <!--script type="text/javascript">
         $.post('https://cmkanalytics.herokuapp.com/api/post', {
           date: new Date,
           url: window.location.href
         });
-      </script>
+      </script-->
       
       <!-- Patreon -->
       <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
@@ -55,7 +55,11 @@
 
           <textarea id="code" placeholder="Type python code here..."></textarea>
           <textarea id="console" class="form-control mt-2" rows="9" placeholder="Press Ctrl+Shift+Enter to execute the above code ..."></textarea>
-          <div class="text-center"><button class="btn btn-outline-secondary col-2 mt-2" onclick="execute()">Run!</button></div>
+          <div class="text-center">
+            <button class="btn btn-outline-secondary col-2 mt-2" onclick="execute()">Execute code</button>
+            <button class="btn btn-outline-secondary col-2 mt-2" onclick="background()">Run in background</button>
+            <button class="btn btn-outline-secondary col-2 mt-2" onclick="kill()">Kill process</button>
+          </div>
           <hr class="my-3">
           <script type="text/javascript">
             var editor = CodeMirror.fromTextArea(document.getElementById('code'), {//CodeMirror(document.getElementById('editor'), {
@@ -71,8 +75,24 @@
               $('#console').text('Executing...')
 
               $.post('/execute', {source: editor.getValue()}, (data) => {
-                $('#console').text(data.output)
+                $('#console').text(data.output);
+                var console = $('#console');
+                
+                if(console.length)
+                   console.scrollTop(console[0].scrollHeight - console.height());
               });
+            }
+            
+            function background() {
+              $.post('/background', {source: editor.getValue()}, (state) => {
+                $('#console').text(state);
+              });
+            }
+            
+            function kill() {
+              $.post('/kill', (state) => {
+                $('#console').text(state);
+              })
             }
             
             // Execute code on Ctrl+Shift+Enter
@@ -106,12 +126,12 @@
       </div>
       <div class="card-text text-center">
         <strong>  
-          <a class="text-success" href="https://github.com/maksimKorzh/onetimescraper">Source code of this project</a>
+          <a class="text-success" target="_blank" href="https://github.com/maksimKorzh/epyco">Source code of this project</a>
         </strong>
       </div>
       <div class="card-text text-center">
         <strong>  
-          <a class="text-danger" href="https://www.youtube.com/channel/UClA-jNuyJKqN-xCm7KPG_XA/featured?view_as=subscriber">Youtube Channel</a>
+          <a class="text-danger" target="_blank" href="https://www.youtube.com/channel/UClA-jNuyJKqN-xCm7KPG_XA/featured?view_as=subscriber">Youtube Channel</a>
         </strong>
       </div>
     </body>
