@@ -93,6 +93,7 @@ cat('background.log')
 def kill():
     if proc.poll() is None:
         proc.kill()
+        process.cancel()
         
         # clear user file output
         with open('background.txt', 'w') as output:

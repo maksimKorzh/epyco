@@ -1,14 +1,14 @@
 process was killed!
-2020-02-18 15:09:19 [scrapy.utils.log] INFO: Scrapy 1.7.3 started (bot: scrapybot)
-2020-02-18 15:09:19 [scrapy.utils.log] INFO: Versions: lxml 4.4.0.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.1, Python 3.6.8 (default, Oct  7 2019, 12:59:55) - [GCC 8.3.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1c  28 May 2019), cryptography 2.7, Platform Linux-4.15.0-20-generic-x86_64-with-LinuxMint-19.1-tessa
-2020-02-18 15:09:19 [scrapy.crawler] INFO: Overridden settings: {}
-2020-02-18 15:09:19 [scrapy.extensions.telnet] INFO: Telnet Password: d6037b6947397050
-2020-02-18 15:09:19 [scrapy.middleware] INFO: Enabled extensions:
+2020-02-18 15:27:51 [scrapy.utils.log] INFO: Scrapy 1.7.3 started (bot: scrapybot)
+2020-02-18 15:27:51 [scrapy.utils.log] INFO: Versions: lxml 4.4.0.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.1, Python 3.6.8 (default, Oct  7 2019, 12:59:55) - [GCC 8.3.0], pyOpenSSL 19.0.0 (OpenSSL 1.1.1c  28 May 2019), cryptography 2.7, Platform Linux-4.15.0-20-generic-x86_64-with-LinuxMint-19.1-tessa
+2020-02-18 15:27:51 [scrapy.crawler] INFO: Overridden settings: {}
+2020-02-18 15:27:51 [scrapy.extensions.telnet] INFO: Telnet Password: 63bfa8137b8eec8c
+2020-02-18 15:27:51 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2020-02-18 15:09:19 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2020-02-18 15:27:51 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
  'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
@@ -20,19 +20,18 @@ process was killed!
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2020-02-18 15:09:19 [scrapy.middleware] INFO: Enabled spider middlewares:
+2020-02-18 15:27:51 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2020-02-18 15:09:19 [scrapy.middleware] INFO: Enabled item pipelines:
+2020-02-18 15:27:51 [scrapy.middleware] INFO: Enabled item pipelines:
 []
-2020-02-18 15:09:19 [scrapy.core.engine] INFO: Spider opened
-2020-02-18 15:09:19 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2020-02-18 15:09:19 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2020-02-18 15:09:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://free-proxy-list.net> (referer: None)
-2020-02-18 15:09:21 [views] DEBUG: ['https://34.70.236.32:80', 'https://185.148.223.77:3128', 'https://125.162.201.195:3128', 'https://72.35.40.34:8080', 'https://80.59.199.213:8080', 'https://182.71.90.202:46738', 'https://36.79.241.121:3128', 'https://85.10.219.100:1080', 'https://36.89.209.42:42852', 'https://95.68.11.4:53281', 'https://91.216.66.70:32306', 'https://183.82.32.153:55236', 'https://46.165.49.41:52967', 'https://182.253.172.129:8080', 'https://107.152.47.116:8080', 'https://85.10.219.97:1080', 'https://80.59.199.212:8080', 'https://82.200.233.4:3128', 'https://149.154.70.99:3128', 'https://89.42.133.58:8080', 'https://62.118.131.240:3128', 'https://162.249.248.218:53281', 'https://91.241.21.155:8080', 'https://185.44.232.30:53281', 'https://36.67.246.50:42932', 'https://125.26.7.114:30638', 'https://94.130.125.222:1080', 'https://103.243.82.198:37358', 'https://178.63.246.84:8118', 'https://5.9.218.111:1080', 'https://197.245.201.210:8080', 'https://176.102.48.105:54203', 'https://118.175.244.91:51596', 'https://36.89.8.235:8080', 'https://92.84.56.10:51275', 'https://165.227.103.206:8118', 'https://94.130.125.217:1080', 'https://176.120.37.82:59365', 'https://118.174.232.60:34772', 'https://186.10.65.4:999', 'https://87.255.70.183:8080', 'https://124.41.211.212:23500', 'https://24.37.245.42:36836', 'https://185.32.165.78:8080', 'https://94.130.125.220:1080']
-2020-02-18 15:09:25 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://scrapingkungfu.herokuapp.com/api/request> (failed 1 times): Could not open CONNECT tunnel with proxy 165.227.103.206:8118 [{'status': 503, 'reason': b'Too many open connections'}]
-2020-02-18 15:09:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://scrapingkungfu.herokuapp.com/api/request> (referer: https://free-proxy-list.net)
-2020-02-18 15:09:36 [views] DEBUG: respose: 200
+2020-02-18 15:27:51 [scrapy.core.engine] INFO: Spider opened
+2020-02-18 15:27:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-02-18 15:27:51 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-02-18 15:27:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://free-proxy-list.net> (referer: None)
+2020-02-18 15:27:52 [views] DEBUG: ['https://101.178.215.185:8080', 'https://88.198.33.232:1080', 'https://200.105.215.18:33630', 'https://80.59.199.212:8080', 'https://175.100.30.156:25', 'https://36.67.66.202:55638', 'https://67.205.177.112:3128', 'https://103.231.218.30:47568', 'https://83.221.166.10:3128', 'https://41.169.151.90:46799', 'https://185.148.223.77:3128', 'https://36.89.8.235:8080', 'https://212.154.246.67:3128', 'https://194.143.151.96:39072', 'https://82.200.233.4:3128', 'https://213.6.38.50:59840', 'https://34.70.236.32:80', 'https://72.35.40.34:8080', 'https://125.162.201.195:3128', 'https://80.59.199.213:8080', 'https://95.68.11.4:53281', 'https://46.165.49.41:52967', 'https://182.71.90.202:46738', 'https://85.10.219.100:1080', 'https://36.89.209.42:42852', 'https://183.82.32.153:55236', 'https://36.79.241.121:3128', 'https://149.154.70.99:3128', 'https://182.253.172.129:8080']
+2020-02-18 15:28:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.youtube.com/watch?v=PZYHR64117Q> (referer: https://free-proxy-list.net)
+2020-02-18 15:28:02 [views] DEBUG: response status is 200

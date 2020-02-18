@@ -1,20 +1,3 @@
-# This script is trying to increase the number of YouTube video views.
-#
-# It's experimental and I'm not responsible for any negative video rating affects
-# that could be in theory caused by using this script.
-#
-# Use this script only for testing purposes as a proof of concept, I highly
-# discourage you guys to use for aggressive views increasing on YouTube
-#
-# If you want your videos to have more views - just improve your content,
-# video quality, presentation and promotion, keep doing things even in case
-# of lack of feedbacks, keep making new videos with passion and one day
-# you'll get popular in a fair way.
-#
-# Sincerely yours Maksim Korzh aka Code Monkey King
-
-
-
 import scrapy
 from scrapy.crawler import CrawlerProcess
 import json
@@ -60,10 +43,10 @@ class Views(scrapy.Spider):
             # use your video url here
             video_url = 'https://www.youtube.com/watch?v=PZYHR64117Q'
             
-            yield scrapy.Request(test_url, dont_filter=True, headers=self.headers, meta={'proxy': proxy}, callback=self.check_response)
+            yield scrapy.Request(video_url, dont_filter=True, headers=self.headers, meta={'proxy': proxy}, callback=self.check_response)
          
     def check_response(self, response):
-        self.log('respose: ' + str(response.status))
+        self.log('response status is ' + str(response.status))
             
     
 
