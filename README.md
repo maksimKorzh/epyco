@@ -1,5 +1,5 @@
 # EPYCO - Experimental Python Coding
-Minimalist online python IDE intended for web scraping using Requests + BeautifulSoup or Scrapy
+Minimalist online python IDE intended for web scraping
 
 # MIRRORS: EPYCO + Request/Beautifulsoup + Scrapy
   - https://epyco.herokuapp.com by CodeMonkeyKing
