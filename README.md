@@ -2,10 +2,8 @@
 Minimalist python IDE intended for educational purposes
 
 # MIRRORS: EPYCO + Request/Beautifulsoup + Scrapy
-https://epyco.herokuapp.com    |    (by CodeMonkeyKing)
-
-https://epico.herokuapp.com    |    (by Dr Pi)
-
+  - https://epyco.herokuapp.com by CodeMonkeyKing
+  - https://epico.herokuapp.com by Dr Pi)
 
 Please pool request or mail me at freesoft.for.people@gmail.com if you want to share your mirrors and remember the more mirrors the more chances to keep it free forever!
 
